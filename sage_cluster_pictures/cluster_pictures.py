@@ -84,6 +84,9 @@ def find_root_difference_valuations(f, g):
     newt_slopes = h.newton_slopes()
     return [newt_slopes[g.degree()*i] for i in range(len(newt_slopes)//g.degree())]
 
+def frdv():
+    print("test")
+
 
 # TODO probably remove this pointless wrapper
 def orbit_decomposition(F, S, cond=None):
