@@ -75,6 +75,7 @@ def teichmuller_trunc(x, n):
 
 
 def find_root_difference_valuations(f, g):
+    print("test")
     R = f.parent()
     if g not in R:
         raise ValueError("polynomials have different parents?")
